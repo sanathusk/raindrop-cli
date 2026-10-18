@@ -6,9 +6,9 @@ description: >
   import/export bookmarks, or automate bookmark workflows. Triggered by mentions of Raindrop,
   bookmarks, reading lists, collections, or link management.
 license: MIT
-homepage: https://github.com/dedene/raindrop-cli
+homepage: https://github.com/sanathusk/raindrop-cli
 metadata:
-  author: dedene
+  author: sanathusk
   version: "1.1.0"
   openclaw:
     primaryEnv: RAINDROP_TOKEN
@@ -20,11 +20,11 @@ metadata:
         - raindrop
     install:
       - kind: brew
-        tap: dedene/tap
+        tap: sanathusk/tap
         formula: raindrop
         bins: [raindrop]
       - kind: go
-        package: github.com/dedene/raindrop-cli/cmd/raindrop
+        package: github.com/sanathusk/raindrop-cli/cmd/raindrop
         bins: [raindrop]
 ---
 
@@ -280,5 +280,5 @@ raindrop list trash --json | jq -r '.[].id' | xargs -I{} raindrop delete {} --fo
 ## Installation
 
 ```bash
-brew install dedene/tap/raindrop
+brew install sanathusk/tap/raindrop
 ```

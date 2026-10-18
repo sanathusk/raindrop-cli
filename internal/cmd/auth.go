@@ -10,10 +10,10 @@ import (
 
 	"golang.org/x/term"
 
-	"github.com/dedene/raindrop-cli/internal/api"
-	"github.com/dedene/raindrop-cli/internal/auth"
-	"github.com/dedene/raindrop-cli/internal/config"
-	"github.com/dedene/raindrop-cli/internal/errfmt"
+	"github.com/sanathusk/raindrop-cli/internal/api"
+	"github.com/sanathusk/raindrop-cli/internal/auth"
+	"github.com/sanathusk/raindrop-cli/internal/config"
+	"github.com/sanathusk/raindrop-cli/internal/errfmt"
 )
 
 type AuthCmd struct {

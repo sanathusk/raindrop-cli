@@ -12,7 +12,7 @@ import (
 	"github.com/99designs/keyring"
 	"golang.org/x/term"
 
-	"github.com/dedene/raindrop-cli/internal/config"
+	"github.com/sanathusk/raindrop-cli/internal/config"
 )
 
 type Store interface {

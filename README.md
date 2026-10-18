@@ -1,8 +1,10 @@
 # 🔖 raindrop-cli - Raindrop in your terminal
 
-[![CI](https://github.com/dedene/raindrop-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/dedene/raindrop-cli/actions/workflows/ci.yml)
+[![CI](https://github.com/sanathusk/raindrop-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/sanathusk/raindrop-cli/actions/workflows/ci.yml)
+[![CodeQL: Security & Quality](https://github.com/sanathusk/raindrop-cli/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/sanathusk/raindrop-cli/security/code-scanning)
+[![Known Vulnerabilities](https://snyk.io/test/github/sanathusk/raindrop-cli/badge.svg)](https://snyk.io/test/github/sanathusk/raindrop-cli)
 [![Go 1.23+](https://img.shields.io/badge/go-1.23+-00ADD8.svg)](https://go.dev/)
-[![Go Report Card](https://goreportcard.com/badge/github.com/dedene/raindrop-cli)](https://goreportcard.com/report/github.com/dedene/raindrop-cli)
+[![Go Report Card](https://goreportcard.com/badge/github.com/sanathusk/raindrop-cli)](https://goreportcard.com/report/github.com/sanathusk/raindrop-cli)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 A command-line interface for [Raindrop.io](https://raindrop.io) bookmark management.
@@ -12,7 +14,7 @@ A command-line interface for [Raindrop.io](https://raindrop.io) bookmark managem
 This CLI is available as an [open agent skill](https://skills.sh/) for AI assistants including [Claude Code](https://claude.ai/code), [OpenClaw](https://openclaw.ai/), [Codex](https://github.com/openai/codex), Cursor, GitHub Copilot, and [35+ agents](https://github.com/vercel-labs/skills#supported-agents).
 
 ```bash
-npx skills add dedene/raindrop-cli
+npx skills add sanathusk/raindrop-cli
 ```
 
 ## Installation
@@ -20,18 +22,18 @@ npx skills add dedene/raindrop-cli
 ### Homebrew
 
 ```bash
-brew install dedene/tap/raindrop
+brew install sanathusk/tap/raindrop
 ```
 
 ### From source
 
 ```bash
-go install github.com/dedene/raindrop-cli/cmd/raindrop@latest
+go install github.com/sanathusk/raindrop-cli/cmd/raindrop@latest
 ```
 
 ### From releases
 
-Download the latest binary from [releases](https://github.com/dedene/raindrop-cli/releases).
+Download the latest binary from [releases](https://github.com/sanathusk/raindrop-cli/releases).
 
 ## Authentication
 
@@ -191,6 +193,13 @@ Add multiple URLs from stdin:
 ```bash
 echo -e "https://a.com\nhttps://b.com" | raindrop add -
 ```
+
+## Security & Privacy
+
+- **Secure Credential Storage**: Authentication tokens are stored securely in your operating system's native keychain (macOS Keychain, Linux Secret Service / Keyring, Windows Credential Manager) via `99designs/keyring`. No plaintext tokens are written to disk.
+- **Local-Only OAuth**: The OAuth authorization callback runs strictly on `localhost` (`127.0.0.1:8484`) and shuts down immediately after token exchange.
+- **Zero Telemetry**: `raindrop-cli` does not track usage, log analytical metrics, or send data to any server other than the official Raindrop.io API (`api.raindrop.io`).
+- **Continuous Security Auditing**: Dependencies and source code are continuously monitored and audited with Snyk and GitHub CodeQL.
 
 ## License
 

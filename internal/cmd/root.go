@@ -7,7 +7,7 @@ import (
 
 	"github.com/alecthomas/kong"
 
-	"github.com/dedene/raindrop-cli/internal/output"
+	"github.com/sanathusk/raindrop-cli/internal/output"
 )
 
 type RootFlags struct {

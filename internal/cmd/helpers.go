@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dedene/raindrop-cli/internal/api"
+	"github.com/sanathusk/raindrop-cli/internal/api"
 )
 
 // defaultTimeout for API calls.

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/dedene/raindrop-cli/internal/api"
-	"github.com/dedene/raindrop-cli/internal/errfmt"
-	"github.com/dedene/raindrop-cli/internal/output"
+	"github.com/sanathusk/raindrop-cli/internal/api"
+	"github.com/sanathusk/raindrop-cli/internal/errfmt"
+	"github.com/sanathusk/raindrop-cli/internal/output"
 )
 
 type SearchCmd struct {

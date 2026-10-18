@@ -83,9 +83,9 @@ linters:
           json: snake
           yaml: snake
         overrides:
-          - pkg: github.com/dedene/raindrop-cli/internal/cmd
+          - pkg: github.com/sanathusk/raindrop-cli/internal/cmd
             ignore: true
-          - pkg: github.com/dedene/raindrop-cli/internal/api
+          - pkg: github.com/sanathusk/raindrop-cli/internal/api
             ignore: true
     wsl:
       allow-assign-and-call: true
@@ -141,4 +141,4 @@ formatters:
   settings:
     goimports:
       local-prefixes:
-        - github.com/dedene/raindrop-cli
+        - github.com/sanathusk/raindrop-cli

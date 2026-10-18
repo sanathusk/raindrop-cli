@@ -9,7 +9,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/dedene/raindrop-cli/internal/errfmt"
+	"github.com/sanathusk/raindrop-cli/internal/errfmt"
 )
 
 type ImportCmd struct {

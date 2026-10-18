@@ -21,7 +21,7 @@
 
 ## Coding Style & Naming Conventions
 
-- Formatting: `make fmt` (goimports local prefix `github.com/dedene/raindrop-cli` + gofumpt)
+- Formatting: `make fmt` (goimports local prefix `github.com/sanathusk/raindrop-cli` + gofumpt)
 - Output: keep stdout parseable (`--json`); send human hints/progress to stderr
 - Linting: golangci-lint v2.1.6 with project config
 - Shell completion supported

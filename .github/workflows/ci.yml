@@ -24,6 +24,11 @@ jobs:
       - name: Lint
         run: make lint
 
+      - name: Lint GitHub Actions
+        run: |
+          bash <(curl https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash)
+          ./actionlint
+
       - name: Test
         run: make test
 

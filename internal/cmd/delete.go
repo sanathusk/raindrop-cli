@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/dedene/raindrop-cli/internal/errfmt"
+	"github.com/sanathusk/raindrop-cli/internal/errfmt"
 )
 
 type DeleteCmd struct {

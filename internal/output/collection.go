@@ -5,7 +5,7 @@ import (
 	"io"
 	"sort"
 
-	"github.com/dedene/raindrop-cli/internal/api"
+	"github.com/sanathusk/raindrop-cli/internal/api"
 )
 
 // FormatCollectionRow returns table row columns for a collection.

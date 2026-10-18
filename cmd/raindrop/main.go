@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/dedene/raindrop-cli/internal/cmd"
+	"github.com/sanathusk/raindrop-cli/internal/cmd"
 )
 
 func main() {

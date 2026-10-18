@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/dedene/raindrop-cli/internal/config"
+	"github.com/sanathusk/raindrop-cli/internal/config"
 )
 
 type ConfigCmd struct {

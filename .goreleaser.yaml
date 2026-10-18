@@ -11,9 +11,9 @@ builds:
     binary: raindrop
     ldflags: >-
       -s -w
-      -X github.com/dedene/raindrop-cli/internal/cmd.version={{ .Tag }}
-      -X github.com/dedene/raindrop-cli/internal/cmd.commit={{ .ShortCommit }}
-      -X github.com/dedene/raindrop-cli/internal/cmd.date={{ .Date }}
+      -X github.com/sanathusk/raindrop-cli/internal/cmd.version={{ .Tag }}
+      -X github.com/sanathusk/raindrop-cli/internal/cmd.commit={{ .ShortCommit }}
+      -X github.com/sanathusk/raindrop-cli/internal/cmd.date={{ .Date }}
     env:
       - CGO_ENABLED=0
     targets:
@@ -26,9 +26,9 @@ builds:
     binary: raindrop
     ldflags: >-
       -s -w
-      -X github.com/dedene/raindrop-cli/internal/cmd.version={{ .Tag }}
-      -X github.com/dedene/raindrop-cli/internal/cmd.commit={{ .ShortCommit }}
-      -X github.com/dedene/raindrop-cli/internal/cmd.date={{ .Date }}
+      -X github.com/sanathusk/raindrop-cli/internal/cmd.version={{ .Tag }}
+      -X github.com/sanathusk/raindrop-cli/internal/cmd.commit={{ .ShortCommit }}
+      -X github.com/sanathusk/raindrop-cli/internal/cmd.date={{ .Date }}
     env:
       - CGO_ENABLED=1
     targets:
@@ -50,11 +50,11 @@ checksum:
 
 brews:
   - repository:
-      owner: dedene
+      owner: sanathusk
       name: homebrew-tap
       token: "{{ .Env.HOMEBREW_TAP_GITHUB_TOKEN }}"
     directory: Formula
-    homepage: https://github.com/dedene/raindrop-cli
+    homepage: https://github.com/sanathusk/raindrop-cli
     description: CLI for Raindrop.io - manage bookmarks, collections, and tags
     license: MIT
     install: |

@@ -5,7 +5,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/dedene/raindrop-cli/internal/api"
+	"github.com/sanathusk/raindrop-cli/internal/api"
 )
 
 // FormatRaindropRow returns table row columns for a raindrop.

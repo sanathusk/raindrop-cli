@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/dedene/raindrop-cli/internal/errfmt"
+	"github.com/sanathusk/raindrop-cli/internal/errfmt"
 )
 
 type ExportCmd struct {

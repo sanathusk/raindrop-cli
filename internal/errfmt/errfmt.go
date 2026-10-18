@@ -3,8 +3,8 @@ package errfmt
 import (
 	"errors"
 
-	"github.com/dedene/raindrop-cli/internal/api"
-	"github.com/dedene/raindrop-cli/internal/auth"
+	"github.com/sanathusk/raindrop-cli/internal/api"
+	"github.com/sanathusk/raindrop-cli/internal/auth"
 )
 
 // Sentinel errors for user-friendly messages.

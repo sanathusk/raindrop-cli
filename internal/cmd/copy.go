@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"runtime"
 
-	"github.com/dedene/raindrop-cli/internal/errfmt"
+	"github.com/sanathusk/raindrop-cli/internal/errfmt"
 )
 
 type CopyCmd struct {

@@ -12,7 +12,7 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"github.com/dedene/raindrop-cli/internal/auth"
+	"github.com/sanathusk/raindrop-cli/internal/auth"
 )
 
 const (
