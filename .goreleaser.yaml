@@ -48,16 +48,17 @@ archives:
 checksum:
   name_template: checksums.txt
 
-brews:
-  - repository:
-      owner: sanathusk
-      name: homebrew-tap
-      token: "{{ .Env.HOMEBREW_TAP_GITHUB_TOKEN }}"
-    directory: Formula
-    homepage: https://github.com/sanathusk/raindrop-cli
-    description: CLI for Raindrop.io - manage bookmarks, collections, and tags
-    license: MIT
-    install: |
-      bin.install "raindrop"
-    test: |
-      system "#{bin}/raindrop", "--version"
+# Commented out brew release steps as we don't plan to release brew packages not time being
+# brews:
+#   - repository:
+#       owner: sanathusk
+#       name: homebrew-tap
+#       token: "{{ .Env.HOMEBREW_TAP_GITHUB_TOKEN }}"
+#     directory: Formula
+#     homepage: https://github.com/sanathusk/raindrop-cli
+#     description: CLI for Raindrop.io - manage bookmarks, collections, and tags
+#     license: MIT
+#     install: |
+#       bin.install "raindrop"
+#     test: |
+#       system "#{bin}/raindrop", "--version"
