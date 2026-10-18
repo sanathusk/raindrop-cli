@@ -1,7 +1,7 @@
 # 🔖 raindrop-cli - Raindrop in your terminal
 
 [![CI](https://github.com/sanathusk/raindrop-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/sanathusk/raindrop-cli/actions/workflows/ci.yml)
-[![CodeQL: Security & Quality](https://github.com/sanathusk/raindrop-cli/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/sanathusk/raindrop-cli/security/code-scanning)
+[![CodeQL](https://github.com/sanathusk/raindrop-cli/actions/workflows/codeql.yml/badge.svg)](https://github.com/sanathusk/raindrop-cli/actions/workflows/codeql.yml)
 [![Known Vulnerabilities](https://snyk.io/test/github/sanathusk/raindrop-cli/badge.svg)](https://snyk.io/test/github/sanathusk/raindrop-cli)
 [![Go 1.23+](https://img.shields.io/badge/go-1.23+-00ADD8.svg)](https://go.dev/)
 [![Go Report Card](https://goreportcard.com/badge/github.com/sanathusk/raindrop-cli)](https://goreportcard.com/report/github.com/sanathusk/raindrop-cli)

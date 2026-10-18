@@ -44,7 +44,7 @@ tools:
 	@mkdir -p $(TOOLS_DIR)
 	@GOBIN=$(TOOLS_DIR) go install mvdan.cc/gofumpt@v0.7.0
 	@GOBIN=$(TOOLS_DIR) go install golang.org/x/tools/cmd/goimports@v0.28.0
-	@GOBIN=$(TOOLS_DIR) go install github.com/golangci/golangci-lint/v2/cmd/golangci-lint@v2.1.6
+	@GOBIN=$(TOOLS_DIR) go install github.com/golangci/golangci-lint/v2/cmd/golangci-lint@v2.13.0
 
 fmt: tools
 	@$(GOIMPORTS) -local github.com/sanathusk/raindrop-cli -w .

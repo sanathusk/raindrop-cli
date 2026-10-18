@@ -1,4 +1,4 @@
-name: "CodeQL: Security & Quality"
+name: "CodeQL Analysis"
 
 on:
   push:

@@ -23,7 +23,7 @@
 
 - Formatting: `make fmt` (goimports local prefix `github.com/sanathusk/raindrop-cli` + gofumpt)
 - Output: keep stdout parseable (`--json`); send human hints/progress to stderr
-- Linting: golangci-lint v2.1.6 with project config
+- Linting: golangci-lint v2.13.0 with project config
 - Shell completion supported
 
 ## Testing Guidelines

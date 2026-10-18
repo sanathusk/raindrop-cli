@@ -22,7 +22,7 @@ import (
 )
 
 // Raindrop OAuth2 endpoints.
-var raindropEndpoint = oauth2.Endpoint{
+var raindropEndpoint = oauth2.Endpoint{ //nolint:gosec // OAuth endpoint definition, not credentials
 	AuthURL:  "https://raindrop.io/oauth/authorize",
 	TokenURL: "https://raindrop.io/oauth/access_token",
 }

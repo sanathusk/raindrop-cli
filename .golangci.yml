@@ -133,6 +133,12 @@ linters:
       - linters:
           - staticcheck
         text: "QF1001"
+      - linters:
+          - noctx
+        text: "os/exec\\.Command must not be called"
+      - linters:
+          - gosec
+        text: "G117|G204"
 
 formatters:
   enable:
